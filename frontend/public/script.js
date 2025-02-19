@@ -1,5 +1,4 @@
 const videoElem = document.getElementById("video");
-const logElem = document.getElementById("log");
 const startElem = document.getElementById("start");
 const stopElem = document.getElementById("stop");
 let sender = false;
@@ -101,7 +100,6 @@ stopElem.addEventListener(
 );
 async function startCapture() {
   sender = true;
-  logElem.textContent = "";
 
   try {
     const stream = await navigator.mediaDevices.getDisplayMedia({
