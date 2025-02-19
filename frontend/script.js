@@ -12,7 +12,7 @@ const peerConnection = new RTCPeerConnection({
 });
 
 // socket
-const socket = new WebSocket("ws://localhost:8998");
+const socket = new WebSocket("ws://sl-dev.at:8998");
 socket.onmessage = async (event) => {
     let message;
 
