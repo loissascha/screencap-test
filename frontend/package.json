@@ -17,6 +17,9 @@
     "path": "^0.12.7"
   },
   "pkg": {
+    "assets": [
+      "public/**/*"
+    ],
     "targets": [
       "node14-linux-x64",
       "node14-macos-x64",
