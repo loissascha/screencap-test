@@ -141,6 +141,7 @@ function dumpOptionsInfo() {
 }
 
 function stopCapture(evt) {
+  sender = false;
   let tracks = videoElem.srcObject.getTracks();
 
   tracks.forEach((track) => track.stop());
