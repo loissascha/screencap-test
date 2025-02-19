@@ -1,27 +1,36 @@
 <html>
-  <head>
-    <title>Test</title>
-  </head>
 
-  <body>
-    <p>
-      This example shows you the contents of the selected part of your display.
-      Click the Start Capture button to begin.
-    </p>
+<head>
+	<title>Test</title>
+	<style>
+		html,
+		body {
+			background: #000;
+			color: #fff;
+		}
+	</style>
+</head>
 
-    <p>
-      <button id="start">Start Capture</button>&nbsp;<button id="stop">
-        Stop Capture
-      </button>
-    </p>
+<body>
+	<p>
+		This example shows you the contents of the selected part of your display.
+		Click the Start Capture button to begin.
+	</p>
 
-    <video id="video" autoplay></video>
-    <br />
+	<p>
+		<button id="start">Start Capture</button>&nbsp;<button id="stop">
+			Stop Capture
+		</button>
+	</p>
 
-    <strong>Log:</strong>
-    <br />
-    <pre id="log"></pre>
+	<video id="video" autoplay></video>
+	<br />
 
-    <script src="script.js"></script>
-  </body>
+	<strong>Log:</strong>
+	<br />
+	<pre id="log"></pre>
+
+	<script src="script.js"></script>
+</body>
+
 </html>
